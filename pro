@@ -24,10 +24,11 @@
   </div>
 <div class="project">
     <h2 class="project-title"> <a href="">Pun-a-thon</a></h2>
+    <img src="http://icdn7.digitaltrends.com/image/2-5-million-bugatti-chiron_008-720x480-c.jpg">
     <p>I made a joke page. I used jQuery.</p>
     <button>Like</button>
     <p id="like"></p>
-     <img src="http://icdn7.digitaltrends.com/image/2-5-million-bugatti-chiron_008-720x480-c.jpg">
+     
      
   </div>
 </body>
