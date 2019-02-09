@@ -1,34 +1,41 @@
-<!Doctype html>
+<!doctype html>
 <head>
   <title>Portfolio Page</title>
   <link href="style.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="script.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <img id="profile" src="images/scripted_logo_orange.png">
-   
-    <h1>ScriptEd's Portfolio</h1>
-    <ul>
-      <li><a class="nav" href="">Home</a></li>
-      <li><a class="nav" href="">About</a></li>
-      <li><a class="nav" href="">Contact</a></li>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Navbar</a>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
     </ul>
-  </header>
-  <div class="project">
-    <h2 class="project-title"> <a href="data:text/html;charset=utf-8;base64,PCFET0NUWVBFIGh0bWw+IDxodG1sPjxoZWFkPgogICAgICAgIDx0aXRsZT5ub3RoaW5nIHJvbmc8L3RpdGxlPgogICAgPHN0eWxlPmgxewogICAgY29sb3I6IzAwZmZmZjsKICAgZm9udC1mYW1pbHk6ICdJdGltJywgY3Vyc2l2ZTsKICAgIGJhY2tncm91bmQ6IzAwMDBmZjsgICAKICAgIGZvbnQtc2l6ZTo4MHB4Owp9CmltZ3sKICAgIGhlaWdodDoyMDBweDsKfQpib2R5ewogICAgYmFja2dyb3VuZC1jb2xvcjojMDBmZjAwOwp9CnB7CiAgICBjb2xvcjojZmZmZjAwOwogICAgYmFja2dyb3VuZDojZmYzMzAwOwogICAgZm9udC1mYW1pbHk6QXJpYWwgQkxhY2s7CiAgICAKfTwvc3R5bGU+PC9oZWFkPgogICAgPGJvZHk+CiAgICAgICAgPGgxPk5vbnN0b3AgTG9MPC9oMT4KICAgICAgICA8aW1nIHNyYz0iaHR0cDovL3d3dzIuZGltYS51bmlnZS5pdC9zaXRlcy93d3cyLmRpbWEudW5pZ2UuaXQvZmlsZXMvcGFnaW5lL1N1bmdsYXNzZXNfRW1vamkucG5nIj4KICAgICAgICA8aW1nIHNyYz0iaHR0cDovL2kuaXN0b2NraW1nLmNvbS9maWxlX3RodW1idmlld19hcHByb3ZlLzk3OTYxMjEvNi9zdG9jay1pbGx1c3RyYXRpb24tOTc5NjEyMS1udWNsZWFyLWV4cGxvc2lvbi5qcGciPgogICAgICAgIDxwPk1MRzwvcD4KICAgICAgICA8aW1nIHNyYz0iaHR0cDovL2Jlc3RhbmltYXRpb25zLmNvbS9NaWxpdGFyeS9FeHBsb3Npb25zL2V4cGxvc2lvbi1hbmltYXRlZC1naWYtMS5naWYiPgogICAgCgo8c2NyaXB0PgovKl9fUE9QQ09ERVNUQVJUX18qLwo8L3NjcmlwdD48L2JvZHk+PC9odG1sPg==">My First Webpage</a></h2>
-    <p>This is the first project that I made in ScriptEd. I used basic HTML tags.</p>
-    <button>Like</button>
-    <p id="like"></p>
   </div>
-<div class="project">
-    <h2 class="project-title"> <a href="https://popcode.org/?gist=04e45c40016214f1e3865c0f668f7f63">Pun-a-thon</a></h2>
-    <img src="http://icdn7.digitaltrends.com/image/2-5-million-bugatti-chiron_008-720x480-c.jpg">
-    <p>I made a joke page. I used jQuery.</p>
-    <button>Like</button>
-    <p> id="like"></p>
-     
-     fdsf8
-  </div>
+</nav>
 </body>
